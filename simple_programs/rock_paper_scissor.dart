@@ -1,3 +1,5 @@
+// A rock, paper, scissor game written in dart.
+
 import 'dart:io';
 import 'package:randt/randt.dart';
 import 'package:ansicolor/ansicolor.dart';
@@ -22,7 +24,7 @@ void main(List<String> args) {
   print("Rock, paper, scissor game!");
   do {
     List<String> botmoves = ["r", "p", "s"];
-    String botmove = randstr(botmoves);
+    String botmove = randItem(botmoves);
     print("Enter your move[r/p/s]");
     String? usermove = stdin.readLineSync();
     if (usermove != null) {

@@ -1,4 +1,4 @@
-/*First dart code!*/
+// Posivitve, neagtive and zero number checker.
 
 import 'dart:io';
 

@@ -1,3 +1,5 @@
+// A simple program for cycling between two numbers.
+
 import 'dart:io';
 
 void cycle(int min, int max, int add) {

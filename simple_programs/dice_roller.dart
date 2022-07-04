@@ -1,3 +1,5 @@
+// Dice simulator written in dart.
+
 import 'dart:io';
 import 'dart:math';
 

@@ -1,3 +1,5 @@
+// Encryptor and Decryptor for base64.
+
 import 'dart:convert';
 import 'package:dart_clipboard/dart_clipboard.dart';
 import 'package:prompts/prompts.dart' as prompts;
